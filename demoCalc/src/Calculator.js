@@ -1,42 +1,42 @@
 import React from 'react';
-import calculatorTitle from './CalculatorTitle';
-import outputScreen from './OutputScreen';
-import clickButton from './Button';
+import CalculatorTitle from './CalculatorTitle';
+import OutputScreen from './OutputScreen';
+import ClickButton from './Button';
 
 class Calculator extends React.Component{
 render(){
     return(
       <div className ="frame">
-          <calculatorTitle value="GeeksforGeeks Calculator"/>
-          <div class="mainCalc">
-              <outputScreen/>
+          <CalculatorTitle value="GeeksforGeeks Calculator"/>
+          <div className="mainCalc">
+              <OutputScreen/>
               <div className="button row">
-                  <clickButton label={"Clear"}/>
-                  <clickButton label={"Del"}/>
-                  <clickButton label={"."}/>
-                  <clickButton label={"/"}/>
+                  <ClickButton label={"Clear"}/>
+                  <ClickButton label={"Del"}/>
+                  <ClickButton label={"."}/>
+                  <ClickButton label={"/"}/>
               </div>
               <div className="button row">
-                  <clickButton label={"7"}/>
-                  <clickButton label={"8"}/>
-                  <clickButton label={"9"}/>
-                  <clickButton label={"*"}/>
+                  <ClickButton label={"7"}/>
+                  <ClickButton label={"8"}/>
+                  <ClickButton label={"9"}/>
+                  <ClickButton label={"*"}/>
               </div>
               <div className="button row">
-                  <clickButton label={"4"}/>
-                  <clickButton label={"5"}/>
-                  <clickButton label={"6"}/>
-                  <clickButton label={"-"}/>
+                  <ClickButton label={"4"}/>
+                  <ClickButton label={"5"}/>
+                  <ClickButton label={"6"}/>
+                  <ClickButton label={"-"}/>
               </div>
               <div className="button row">
-                  <clickButton label={"1"}/>
-                  <clickButton label={"2"}/>
-                  <clickButton label={"3"}/>
-                  <clickButton label={"+"}/>
+                  <ClickButton label={"1"}/>
+                  <ClickButton label={"2"}/>
+                  <ClickButton label={"3"}/>
+                  <ClickButton label={"+"}/>
               </div>
               <div className="button row">
-                  <clickButton label={"0"}/>
-                  <clickButton label={"="}/>
+                  <ClickButton label={"0"}/>
+                  <ClickButton label={"="}/>
               </div>
           </div>
       </div>
