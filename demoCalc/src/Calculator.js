@@ -42,7 +42,7 @@ switch(stateValue){
     }
     case 'Del':{
         let value= this.state.question;
-        let upDateValue= value.substr(0,value.lenght-1);
+        let upDateValue= value.substring(0,value.length-1);
         this.setState({
             question: upDateValue
         })
